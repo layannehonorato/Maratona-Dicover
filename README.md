@@ -1,1 +1,1 @@
-# Maratona-Dicover
+# Maratona-Discover

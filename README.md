@@ -7,5 +7,6 @@
 
 ## Processos:
 - [x] Estrutura do site
-- [ ] Estilização do site
+- [x] Estilização do site part 1
+- [ ] Estilização do site part 2
 - [ ] Implementando JS

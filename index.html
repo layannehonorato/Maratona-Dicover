@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dev.finance</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="imagem/png" href="./Imagens/logo.svg"/>
+    <link rel="icon" type="imagem/png" href="./Imagens/logo.svg" />
 </head>
-<body>
-    <section id="sectione">
-        <div id="pagetitle">
-            <p id="pt1">dev<span style="color: #49AA26;">.</span>finance</p>
-            <p style="color: #49AA26;">$</p>
-        </div>
 
-        <div class="cards space">
-            <div class="datacard">
-                <div class="titlecard">
-                    <p style="font-weight: 500;">Entradas</p>
-                    <img src="./Imagens/Entradas.png" alt="">
+<body>
+    <header>
+        <p>dev<span>.</span>finance</p>
+        <span>$</span>
+    </header>
+    <main class="container">
+        <section id="balance">
+
+            <h2 style="color: #f0f2f5;">Balanço</h2>
+
+            <div id="balance-cards-area">
+
+                <div class="card">
+                    <div class="position-card">
+                        <p>Entradas</p>
+                        <img src="./Imagens/Entradas.png" alt="">
+                    </div>
+                    <p class="balance-value">R$ 17.400,00</p>
                 </div>
-                    <p class="fontNumber">R$ 17.400,00</p>
-            </div>
-            <div class="datacard">
-                <div class="titlecard">
-                    <p class="textgray">Saídas</p>
-                    <img src="./Imagens/Saídas.png" alt="">
+                <div class="card">
+                    <div class="position-card">
+                        </divclass>
+                        <p>Saídas</p>
+                        <img src="./Imagens/Saídas.png" alt="">
+                    </div>
+                    <p class="balance-value">R$ 1.259,00</p>
                 </div>
-                    <p class="fontNumber">R$ 1.259,00</p>
-            </div>
-            <div id="datacard1" class="datacard">
-                <div class="titlecard">
-                    <p>Total</p>
-                    <img src="./Imagens/Total.png" alt="">
+                <div class="card" style="background-color: rgb(96, 185, 8); color: white;">
+                    <div class="position-card">
+                        <p>Total</p>
+                        <img src="./Imagens/Total.png" alt="">
+                    </div>
+                    <p class="balance-value">R$ 16.141,00</p>
                 </div>
-                    <p class="fontNumber">R$ 16.141,00</p>
+                
             </div>
-        </div>
-    </section>
-    <section>
-            <table class="space">
+        </section>
+
+        <section id="transaction">
+            <h2>Transações</h2>
+            <table id="data-table">
                 <thead>
-                    <tr class="table-line-title textgray">
-                        <th>Descrição</th>
-                        <th>Valor</th>
-                        <th>Data</th>
+                    <tr>
+                        <th class="line-title">Descrição</th>
+                        <th class="line-title">Valor</th>
+                        <th class="line-title">Data</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="table-line">
-                        <td class="table-line-descrption">Desenvolvimento de site</td>
-                        <td class="table-line-cost">R$ 5000,00</td>
-                        <td class="table-line-date">13/04/2020</td>
+                    <tr class="line">
+                        <td>Desenvolvimento de site</td>
+                        <td class="income">R$ 5000,00</td>
+                        <td class="date">13/04/2020</td>
+                    </tr>
+                    <tr class="line">
+                        <td>Supermecado</td>
+                        <td class="expanse">-R$ 400,00</td>
+                        <td class="date">17/06/2020</td>
                     </tr>
                 </tbody>
             </table>
-    </section>
+        </section>
+    </main>
+    <footer>
+        <p>dev<span>.</span>finance</p>
+        <p>$</p>
+    </footer>
+
     <script src="./script.js"></script>
 </body>
+
 </html>

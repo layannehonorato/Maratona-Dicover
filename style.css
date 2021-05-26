@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');/*font-family: 'Poppins', sans-serif;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,8 +18,8 @@ body{
 h2 {
     margin-top: 3.2rem;
     margin-bottom:0.8rem;
-    color: rgb(96, 185, 8);
-    font-weight: 400;
+    color: #2d4a22;
+    font-weight: 500;
 }
 
 /* Header ============================================================*/
@@ -69,17 +68,31 @@ header span{
 }
 .balance-value{
     font-size: 1.4em;
+    font-weight: 500;
+}
+/*Transaction =======================================================*/
+#new-transaction{
+    cursor: pointer;
+    color: rgb(96, 185, 8);
+}
+#new-transaction:hover{
+    text-decoration: underline;
 }
 /*Table =============================================================*/
+.minus-button{
+cursor: pointer;
+}
 #data-table {
     width: 100% ;
     border-spacing: 0 0.5rem;
     overflow-x: auto;
-    font-weight: 400;
+    font-weight: 500;
 }
 .line{
+
     background: #4b3d680a;
     opacity: 80%;
+
 
 }
 table td{
@@ -109,7 +122,7 @@ td.income{
 /* Footer ============================================================*/
 
 footer{
-    padding: 5rem 0rem 0rem;
+    padding: 5rem 0rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;

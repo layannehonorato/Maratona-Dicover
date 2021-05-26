@@ -10,3 +10,5 @@
 - [x] Estilização do site part 1
 - [ ] Terminar responsivo
 - [ ] Implementando JS
+- [ ] Implementando recursos extras (botões)
+- [ ] Modal

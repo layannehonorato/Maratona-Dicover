@@ -50,7 +50,7 @@
 
         <section>
             <h2>Transações</h2>
-            <p id="new-transaction">+ Nova transação</p>
+            <a  id="new-transaction" onclick="Modal.open()" >+ Nova transação</a>
             <div id="transaction">
             <table id="data-table">
                 <thead>
@@ -99,7 +99,7 @@
                         <br><input type="date" name="" id="date">
                     </div>
                         <div id="buttons">
-                            <a href="" class="button-cancel">Cancelar</a> <button>Salvar</button>
+                            <a id="button-cancel" onclick="Modal.close()">Cancelar</a> <button>Salvar</button>
                         </div>
                 </form>
             </div>

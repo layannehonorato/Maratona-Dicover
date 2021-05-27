@@ -149,8 +149,13 @@ footer span{
     display: flex;
     align-items: center;
     justify-content: center;
-    /*opacity: 0;
-    visibility: hidden;*/
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
 .modal{
     background: #fafafa;
@@ -214,13 +219,14 @@ input{
     margin-top: 1rem;
     align-items: center;
 }
-.button-cancel {
+#button-cancel {
     text-decoration: none;
     color: red;
     border: 1px solid red;
     padding: 0.5rem;
     border-radius: 0.3rem;
     font-size: 0.9em;
+    cursor: pointer;
 }
 button{
     border: none;

@@ -85,7 +85,6 @@ cursor: pointer;
 #data-table {
     width: 100% ;
     border-spacing: 0 0.5rem;
-    overflow-x: auto;
     font-weight: 500;
 }
 .line{
@@ -143,5 +142,8 @@ footer span{
     }
     .card{
         width: 100%;
+    }
+    #transaction{
+        overflow-x: scroll;
     }
 }

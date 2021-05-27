@@ -202,7 +202,8 @@ input{
     color: white; 
     font-weight: 200; 
  }
-
+ ::-webkit-datetime-edit-text{ color: white; }
+ 
 .input-group{
     display: flex;
     flex-direction: column;

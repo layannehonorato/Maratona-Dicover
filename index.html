@@ -77,8 +77,37 @@
                 </tbody>
             </table>
         </div>
+            <br><p id="text-overflow-sinalization">	&larr; Arraste &rarr;</p>
         </section>
     </main>
+
+<!--MODAL--------------------------------------------------------------->
+    <div class="modal-overlay" active>
+        <div class="modal">
+            <div id="form">
+                <h2>Nova Transação</h2>
+                <form action="" method="post">
+                    <div class="input-group">
+                        <label for="description" class="sr-only"></label>
+                        <input type="text" name="" id="description" placeholder="Descrição">
+                        
+                        <label for="value" class="sr-only"></label>
+                        <input type="text" name="" id="value" placeholder="R$ 0,00">
+                        <small>Use o sinal negativo (-) para despesas e vírgula ( , ) para casas decimais.</small>
+                        
+                        <label for="date" class="sr-only"></label>
+                        <br><input type="date" name="" id="date">
+                    </div>
+                        <div id="buttons">
+                            <a href="" class="button-cancel">Cancelar</a> <button>Salvar</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!--FIM DE MODAL--------------------------------------------------------------->
+
     <footer>
         <p>dev<span>.</span>finance</p>
         <p>$</p>

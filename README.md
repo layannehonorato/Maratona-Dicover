@@ -8,7 +8,7 @@
 ## Processos:
 - [x] Estrutura do site
 - [x] Estilização do site part 1
-- [ ] Arrumar responsivo da tabela para celulares
+- [x] Arrumar responsivo da tabela para celulares
 - [ ] Implementando JS
 - [x] Implementando recursos extras (botões)
 - [ ] Modal

@@ -87,18 +87,16 @@ cursor: pointer;
     border-spacing: 0 0.5rem;
     font-weight: 500;
 }
-.line{
-
+tbody tr{
     background: #4b3d680a;
     opacity: 80%;
-
 
 }
 table td{
     text-align: left;
     padding: 1rem 2rem;
 }
-.line:hover{
+tbody tr:hover{
     opacity: 100%;
     background-color: rgba(255, 255, 255, 0.863);
 }

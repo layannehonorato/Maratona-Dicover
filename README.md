@@ -9,6 +9,6 @@
 - [x] Estrutura do site
 - [x] Estilização do site part 1
 - [x] Arrumar responsivo da tabela para celulares
-- 🕗 Implementando JS
+ 🕗 Implementando JS
 - [x] Implementando recursos extras (botões)
-- 🕗 Modal
+ 🕗 Modal

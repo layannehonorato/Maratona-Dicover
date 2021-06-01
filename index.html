@@ -28,7 +28,7 @@
                         <p>Entradas</p>
                         <img src="./Imagens/Entradas.png" alt="">
                     </div>
-                    <p class="balance-value">R$ 17.400,00</p>
+                    <p class="balance-value" id="incomeDisplay">R$ 17.400,00</p>
                 </div>
                 <div class="card">
                     <div class="position-card">
@@ -36,14 +36,14 @@
                         <p>Saídas</p>
                         <img src="./Imagens/Saídas.png" alt="">
                     </div>
-                    <p class="balance-value">R$ 1.259,00</p>
+                    <p class="balance-value" id="expenseDisplay">R$ 1.259,00</p>
                 </div>
                 <div class="card" style="background-color: rgb(96, 185, 8); color: white;">
                     <div class="position-card">
                         <p>Total</p>
                         <img src="./Imagens/Total.png" alt="">
                     </div>
-                    <p class="balance-value">R$ 16.141,00</p>
+                    <p class="balance-value" id="totalDisplay">R$ 16.141,00</p>
                 </div>
                 
             </div>
@@ -76,20 +76,24 @@
         <div class="modal">
             <div id="form">
                 <h2>Nova Transação</h2>
-                <form action="" method="post">
+                <form action="" onsubmit="Form.submit(event)" method="post">
                     <div class="input-group">
+                        <p>Descrição:</p>
                         <label for="description" class="sr-only"></label>
                         <input type="text" name="" id="description" placeholder="Descrição">
                         
+                        <p>Valor:</p>
                         <label for="value" class="sr-only"></label>
-                        <input type="text" name="" id="value" placeholder="R$ 0,00">
+                        <input type="text" name="" id="amount" placeholder="R$ 0,00">
                         <small>Use o sinal negativo (-) para despesas e vírgula ( , ) para casas decimais.</small>
                         
+                        <p>Data:</p>
                         <label for="date" class="sr-only"></label>
                         <input type="date" name="" id="date" style="width: 100%;">
                     </div>
                         <div id="buttons">
-                            <a id="button-cancel" onclick="Modal.close()">Cancelar</a> <button>Salvar</button>
+                            <a id="button-cancel" onclick="Modal.close()">Cancelar</a> 
+                            <button>Salvar</button>
                         </div>
                 </form>
             </div>

@@ -110,7 +110,7 @@ tbody tr:hover{
 .date{
     opacity: 60%;
 }
-td.expanse{
+td.expense{
     color: red;
 }
 td.income{
@@ -200,16 +200,21 @@ input{
     color: white; 
     font-weight: 200; 
  }
- ::-webkit-datetime-edit-text{ color: white; }
+
  
 .input-group{
     display: flex;
     flex-direction: column;
-    row-gap: 0.2rem;
     text-align: justify;
 }
 .input-group small{
     font-size: 0.7em;
+}
+.input-group p{
+    color: #2d4a22;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 2rem;
 }
 
 #buttons{
@@ -234,6 +239,7 @@ button{
     border-radius: 0.5rem;
     font-size: 1em;
     transition: 0.5s;
+    cursor: pointer;
 }
 button:hover{
     color: white;

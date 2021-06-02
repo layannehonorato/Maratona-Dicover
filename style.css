@@ -209,6 +209,7 @@ input{
 }
 .input-group small{
     font-size: 0.7em;
+    color: red; font-weight: 400;
 }
 .input-group p{
     color: #2d4a22;
